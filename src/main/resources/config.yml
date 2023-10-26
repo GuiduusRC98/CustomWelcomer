@@ -1,0 +1,38 @@
+#Welcome to the config file
+#Here you can modify everything about the plugin. Disable each option and configure it to your liking.
+#Use %player% to indicate the player's name
+config:
+  sound: #Here you can configure the sound that will be played when the player enters the server
+    enabled: true
+    volume: 1.0
+    pitch: 1.0
+    sound: entity.player.levelup #The sounds can be from Minecraft vanilla or from your texture pack.
+  title_message: #Title on screen when entered, you can edit it to your liking.
+    enabled: true
+    title: "Welcome %player%"
+    subtitle: "to my server"
+    stay: 100
+    fadeIn: 30
+    fadeOut: 10
+  teleport_coord: #Defines the world where the player enters and the coordinates that he teleports when entering the server
+    world: world
+    enabled: false
+    x: 0
+    y: 65
+    z: 0
+  welcome_message: #The welcome message, you can generate a nice message or giving instructions to the player when he enters the server.
+    enabled: true
+    message:
+      - "&a_______________________________________________"
+      - ""
+      - "   &fWelcome to my server &b&l%player%"
+      - "       &fDon't forget to have fun."
+      - "&a_______________________________________________"
+  join: #Edit message that notifies all players on the server that I have entered, you can deactivate it so that it does not appear or edit it to your liking
+    enabled: true
+    message: "&7Welcome &b&l%player%&7.Don't forget to have fun."
+  exit: #Edit message that notifies all players on the server that it has retired, you can deactivate it so that it does not appear or edit it to your liking
+    enabled: true
+    message: "&b&l%player% &7exited the server. See you soon."
+
+#Plugin created and developed by Guido_Stuck

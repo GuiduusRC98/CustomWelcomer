@@ -1,0 +1,11 @@
+main: cw.GuiduusRC.MiPlugin
+version: 1.0
+name: CustomWelcomer
+author: GuiduusRC
+api-version: 1.13
+commands:
+  customwelcomer:
+    description: command to reload plugin configuration
+    usage: /cw reload
+    aliases:
+      - cw
